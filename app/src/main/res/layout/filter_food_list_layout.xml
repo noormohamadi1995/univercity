@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBreakFast"
+        android:layout_width="match_parent"
+        android:minHeight="48dp"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
+        android:text="صبحانه"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorPrimary"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLunch"
+        android:layout_width="match_parent"
+        android:minHeight="48dp"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
+        android:text="نهار"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorPrimary"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDinner"
+        android:layout_width="match_parent"
+        android:minHeight="48dp"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
+        android:text="شام"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorPrimary"/>
+</LinearLayout>
